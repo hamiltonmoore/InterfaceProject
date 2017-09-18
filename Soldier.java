@@ -43,6 +43,11 @@ public static void main() {
         public void punch() {
             System.out.println("punch!!");
         }
+
+        @Override
+        public boolean retract() {
+            return false;
+        }
     }
 
     class Pilot extends Airforce {  //this has inherited bomber from Airforce
