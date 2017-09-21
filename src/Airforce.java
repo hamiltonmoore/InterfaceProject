@@ -1,4 +1,3 @@
-import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
 
 public class Airforce extends Soldier implements BombMaker {
     private boolean inAPlane;

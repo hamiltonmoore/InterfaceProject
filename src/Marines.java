@@ -1,4 +1,5 @@
-public class Marines extends Soldier {
+
+public class Marines extends Soldier implements Punch {
     private boolean adaptable;
 
     public void speak() {

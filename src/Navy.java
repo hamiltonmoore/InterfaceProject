@@ -1,3 +1,4 @@
+
 public class Navy extends Soldier {
     private boolean inAShip;
 
